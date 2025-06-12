@@ -1,0 +1,131 @@
+/* RESET BÁSICO */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f6fc;
+  color: #333;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* ENCABEZADO */
+h1, h2 {
+  color: #004d99;
+  margin-bottom: 20px;
+}
+
+/* FORMULARIO */
+form {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 15px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #0074cc;
+  outline: none;
+}
+
+/* BOTONES */
+button {
+  padding: 12px 24px;
+  background-color: #0074cc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* CONTENEDOR GENERAL */
+.container {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 30px;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* TARJETA VIRTUAL */
+.tarjeta {
+  background: linear-gradient(135deg, #0074cc, #003366);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 360px;
+  margin: 20px auto;
+  font-size: 18px;
+  text-align: left;
+}
+
+.tarjeta p {
+  margin: 8px 0;
+}
+
+/* TABLA DE MOVIMIENTOS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0074cc;
+  color: white;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* ENLACES DE NAVEGACIÓN */
+nav {
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #0074cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
